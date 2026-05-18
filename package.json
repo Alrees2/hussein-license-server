@@ -1,15 +1,13 @@
-
 {
   "name": "hussein-license-server",
   "version": "1.0.0",
-  "description": "License activation server",
-  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
+    "@supabase/supabase-js": "^2.45.4",
     "express": "^4.18.3",
-    "sqlite3": "^5.1.7"
+    "cors": "^2.8.5"
   }
 }
